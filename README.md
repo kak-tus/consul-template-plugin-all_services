@@ -32,7 +32,7 @@ Test run from comand line
 CONSUL_HTTP_ADDR=consul.service.consul:8500 all_services.pl
 ```
 
-Usage from consul template (CONSUL_HTTP_ADDR environment variable must be set)
+Usage from consul-template (CONSUL_HTTP_ADDR environment variable must be set)
 
 ```
 {{range $service_name := plugin "all_services.pl" | split "\n" }}
