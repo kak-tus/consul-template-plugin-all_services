@@ -2,7 +2,7 @@
 
 [consul-template](https://github.com/hashicorp/consul-template) plugin to query all [Consul](https://www.consul.io) services in every DC
 
-How to query all availiable services in all Consul datacenters? Standart "services" function will query all services only in current (or named datacenter).
+How to query all available services in all Consul datacenters? Standart "services" function will query all services only in current (or named datacenter).
 
 With this plugin you can do this easily.
 
