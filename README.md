@@ -11,7 +11,7 @@ With this plugin you can do this easily.
 You need perl and these perl modules: common::sense, LWP::UserAgent, Cpanel::JSON::XS, List::MoreUtils, List::Util. You can install them by apt or cpanm (sometimes some of them are already installed)
 
 ```
-apt install libcommon-sense-perl libcpanel-json-xs-perl liblist-moreutils-perl
+apt install libcommon-sense-perl libwww-perl libcpanel-json-xs-perl liblist-moreutils-perl
 ```
 
 ```
