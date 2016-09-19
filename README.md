@@ -8,11 +8,21 @@ With this plugin you can do this easily.
 
 ## Installation
 
-You need perl and these perl modules: common::sense, LWP::UserAgent, Cpanel::JSON::XS, List::MoreUtils, List::Util. You can install them by apt or cpanm (sometimes some of them are already installed)
+You need perl and these perl modules: common::sense, LWP::UserAgent, Cpanel::JSON::XS, List::MoreUtils, List::Util. You can install them from packages or with cpanm (sometimes some of them are already installed)
+
+### Debian/Ubuntu
 
 ```
 apt install libcommon-sense-perl libwww-perl libcpanel-json-xs-perl liblist-moreutils-perl
 ```
+
+### Alpine linux
+
+```
+apk add --update-cache perl perl-libwww perl-list-moreutils
+```
+
+### cpanm
 
 ```
 cpanm -S common::sense LWP::UserAgent Cpanel::JSON::XS List::MoreUtils List::Util

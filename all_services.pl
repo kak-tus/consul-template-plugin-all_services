@@ -1,9 +1,12 @@
 #!/usr/bin/env perl
 
-use common::sense;
+use strict;
+use warnings;
+use v5.10;
+use utf8;
 
 use LWP::UserAgent;
-use Cpanel::JSON::XS qw(decode_json);
+use JSON::PP qw(decode_json);
 use List::MoreUtils qw(uniq);
 use List::Util qw(any);
 
