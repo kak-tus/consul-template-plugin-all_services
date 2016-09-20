@@ -25,7 +25,7 @@ my @services;
 
 foreach my $dc (@$datacenters) {
   $resp = $ua->get("http://$consul/v1/catalog/services?dc=$dc");
-  my @names = keys decode_json( $resp->decoded_content );
+  my @names = keys %{ decode_json( $resp->decoded_content ) };
 
   unless ( keys %tags ) {
     push @services, @names;
