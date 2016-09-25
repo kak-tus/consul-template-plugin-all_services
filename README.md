@@ -1,6 +1,6 @@
 # consul-template-plugin-all_services
 
-DEPRECATED. Use ["skip" plugin](https://github.com/kak-tus/consul-template-plugin-skip)
+DEPRECATED. Use ["skip" plugin](https://github.com/kak-tus/consul-template-plugin-skip).
 
 [consul-template](https://github.com/hashicorp/consul-template) plugin to query all [Consul](https://www.consul.io) services in every DC
 
